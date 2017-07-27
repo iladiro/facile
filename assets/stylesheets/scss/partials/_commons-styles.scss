@@ -1,0 +1,34 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.clearfix {
+  &:after {
+    clear: both;
+  }
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+.float-left {
+  float: left;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  background-color: #f2f2f2;
+  @include spaces(15px, 0 auto);
+  position: relative;
+  & > div {
+    & > div {
+      width: 320px / 960px * 100%;
+    }
+  }
+}

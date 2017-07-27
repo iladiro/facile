@@ -1,8 +1,5 @@
 @import "mixin/custom-mixin";
-
-.container {
-  width: 960px;
-  background-color: #f2f2f2;
-  padding: 15px;
-  color: red;
-}
+@import "partials/widgets/spaces";
+@import "partials/commons-styles";
+@import "partials/task-box";
+@import "partials/calendar";
