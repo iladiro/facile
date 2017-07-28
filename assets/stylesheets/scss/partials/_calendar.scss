@@ -18,10 +18,10 @@
   }
 }
 
-
-
 .calendar-section {
   .left-side {
+    padding-left: 15px;
+    padding-right: 15px;
     @media (min-width: 992px) {
       width: 33.33333333%;
       float: left;
@@ -32,13 +32,21 @@
       width: 66.66666667%;
       float: left;
     }
-    .half {
-      @media (min-width: 992px) {
-        width: 50%;
-        float: left;
-        margin-left: 15px;
-        margin-right: 15px;
-      }
+  }
+  .one-third {
+    padding-left: 15px;
+    padding-right: 15px;
+    @media (min-width: 992px) {
+      width: 33.33333333%;
+      float: left;
+    }
+  }
+  .half {
+    padding-left: 15px;
+    padding-right: 15px;
+    @media (min-width: 992px) {
+      width: 50%;
+      float: left;
     }
   }
 }
