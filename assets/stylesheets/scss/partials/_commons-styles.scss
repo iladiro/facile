@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.clearfix {
+.clearfix, .container, .container-fluid, .row {
   &:after {
     clear: both;
   }
@@ -12,23 +12,85 @@ body {
   }
 }
 
-*:before, *:after {
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.float-left {
-  float: left;
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
 }
 
 .container {
-  max-width: 960px;
-  width: 100%;
-  background-color: #f2f2f2;
-  @include spaces(15px, 0 auto);
-  position: relative;
-  & > div {
-    & > div {
-      width: 320px / 960px * 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  //position: relative;
+  @media (min-width: 768px) {
+    & {
+      width: 750px;
     }
   }
+  @media (min-width: 992px) {
+    & {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    & {
+      width: 1170px;
+    }
+  }
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }

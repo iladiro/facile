@@ -1,13 +1,10 @@
 .task-box {
   // width: 100%;
-  min-height: 50px;
   @include border(1px, #d4d4d4);
   padding: 10px;
-  margin-right: 15px;
   margin-bottom: 15px;
   font-family: 'Roboto', sans-serif;
   background-color: white;
-  display: block;
   &.blue {
     @include border(3px, #0184c8, left);
   }
