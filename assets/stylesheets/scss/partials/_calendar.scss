@@ -17,3 +17,20 @@
     padding: 15px;
   }
 }
+
+
+
+.calendar-section {
+  .left-side {
+    @media (min-width: 992px) {
+      width: 33.33333333%;
+      float: left;
+    }
+  }
+  .right-side {
+    @media (min-width: 992px) {
+      width: 66.66666667%;
+      float: left;
+    }
+  }
+}
