@@ -2239,12 +2239,6 @@ body {
     color: #a7a6a1; }
   .task-box__day {
     color: #444; }
-  @media (min-width: 992px) {
-    .task-box {
-      width: 33.33333333%;
-      float: left;
-      margin-left: 15px;
-      margin-right: 15px; } }
 
 #calendar {
   background-color: white;
@@ -2267,5 +2261,11 @@ body {
   .calendar-section .right-side {
     width: 66.66666667%;
     float: left; } }
+@media (min-width: 992px) {
+  .calendar-section .right-side .half {
+    width: 50%;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px; } }
 
 /*# sourceMappingURL=style.css.map */
