@@ -2229,8 +2229,7 @@ body {
   background-color: white;
   border: 1px solid #d4d4d4;
   margin-bottom: 15px;
-  min-height: 150px;
-  width: 200px; }
+  min-height: 150px; }
   #calendar .label {
     background-color: #ff6425;
     color: white;
