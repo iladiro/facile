@@ -1,11 +1,22 @@
 .task-box {
   // width: 100%;
+  overflow: hidden;
   height: 60px;
   @include border(1px, #d4d4d4);
-  padding: 10px;
   margin-bottom: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-family: 'Roboto', sans-serif;
   background-color: white;
+  &__left {
+    @include border(2px, #d4d4d4, right);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  &__right {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   &.blue {
     @include border(3px, #0184c8, left);
   }
@@ -14,8 +25,12 @@
   }
   &__title {
     color: #242020;
+    margin-top: 3px;
   }
   &__target {
     color: #a7a6a1;
+  }
+  &__day {
+    color: #444;
   }
 }

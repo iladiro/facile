@@ -1477,6 +1477,9 @@ body {
   background-color: transparent;
   border: 0; }
 
+.text-center {
+  text-align: center; }
+
 .hidden {
   display: none !important; }
 
@@ -2207,20 +2210,32 @@ body {
   .col-lg-6:nth-child(2n+1) {
     clear: left; } }
 .task-box {
+  overflow: hidden;
   height: 60px;
   border: 1px solid #d4d4d4;
-  padding: 10px;
   margin-bottom: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   font-family: 'Roboto', sans-serif;
   background-color: white; }
+  .task-box__left {
+    border-right: 2px solid #d4d4d4;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .task-box__right {
+    padding-left: 10px;
+    padding-right: 10px; }
   .task-box.blue {
     border-left: 3px solid #0184c8; }
   .task-box.green {
     border-left: 3px solid #81be4b; }
   .task-box__title {
-    color: #242020; }
+    color: #242020;
+    margin-top: 3px; }
   .task-box__target {
     color: #a7a6a1; }
+  .task-box__day {
+    color: #444; }
 
 .bg__grey--light {
   background-color: #f2f2f2; }
