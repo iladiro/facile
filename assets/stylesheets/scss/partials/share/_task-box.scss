@@ -17,10 +17,10 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  &.blue {
+  &--blue {
     @include border(3px, #0184c8, left);
   }
-  &.green {
+  &--green {
     @include border(3px, #81be4b, left);
   }
   &__title {

@@ -2228,9 +2228,9 @@ body {
   .task-box__right {
     padding-left: 10px;
     padding-right: 10px; }
-  .task-box.blue {
+  .task-box--blue {
     border-left: 3px solid #0184c8; }
-  .task-box.green {
+  .task-box--green {
     border-left: 3px solid #81be4b; }
   .task-box__title {
     color: #242020;
@@ -2253,24 +2253,6 @@ body {
   #calendar .contents {
     padding: 15px; }
 
-.calendar-section .left-side {
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 992px) {
-    .calendar-section .left-side {
-      width: 33.33333333%;
-      float: left; } }
-@media (min-width: 992px) {
-  .calendar-section .right-side {
-    width: 66.66666667%;
-    float: left; } }
-.calendar-section .one-third {
-  padding-left: 15px;
-  padding-right: 15px; }
-  @media (min-width: 992px) {
-    .calendar-section .one-third {
-      width: 33.33333333%;
-      float: left; } }
 .calendar-section .col {
   padding-left: 15px;
   padding-right: 15px; }
