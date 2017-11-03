@@ -2271,12 +2271,12 @@ body {
     .calendar-section .one-third {
       width: 33.33333333%;
       float: left; } }
-.calendar-section .half {
+.calendar-section .col {
   padding-left: 15px;
   padding-right: 15px; }
   @media (min-width: 992px) {
-    .calendar-section .half {
-      width: 50%;
+    .calendar-section .col {
+      width: 33.33333333%;
       float: left; } }
 
 /*# sourceMappingURL=style.css.map */
