@@ -2253,4 +2253,30 @@ body {
   #calendar .contents {
     padding: 15px; }
 
+.calendar-section .left-side {
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .calendar-section .left-side {
+      width: 33.33333333%;
+      float: left; } }
+@media (min-width: 992px) {
+  .calendar-section .right-side {
+    width: 66.66666667%;
+    float: left; } }
+.calendar-section .one-third {
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .calendar-section .one-third {
+      width: 33.33333333%;
+      float: left; } }
+.calendar-section .col {
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .calendar-section .col {
+      width: 33.33333333%;
+      float: left; } }
+
 /*# sourceMappingURL=style.css.map */
